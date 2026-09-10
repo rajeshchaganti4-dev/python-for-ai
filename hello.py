@@ -16,3 +16,5 @@ prod_config = APIConfig(api_key="sk-prod-key", model="gpt-4", max_tokens=1000)
 print(dev_config.model)        # gpt-3.5-turbo
 print(prod_config.model)       # gpt-4
 print(prod_config.max_tokens)  # 1000
+
+print(prod_config.max_tokens)  # 
